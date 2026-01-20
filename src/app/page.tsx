@@ -154,7 +154,7 @@ export default function Page() {
               </div>
 
             </div>
-            <button className="w-full bg-[color:hsl(14,86%,42%)] text-white rounded-full p-3 mt-10 cursor-pointer" onClick={toggleModal}>Start new order</button>
+            <button className="w-full bg-[color:hsl(14,86%,42%)] text-white rounded-full p-3 mt-10 cursor-pointer" onClick={() =>{toggleModal(),setCartList([])}}>Start new order</button>
           </div>
         </div>
       }
